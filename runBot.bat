@@ -1,1 +1,1 @@
-py files/runBot.py
+python files/runBot.py
