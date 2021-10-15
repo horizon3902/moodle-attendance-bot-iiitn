@@ -1,6 +1,6 @@
 ##
 ##	IMPORTANT: CHANGE USERNAME AND PASSWORD INSIDE "Enter Username Here", "Enter Password Here" in logInMoodle(self) METHOD, 
-##		   KEEP THE QUOTES!!
+##		   KEEP THE QUOTES!! DO NOT CHANGE ANYTHING ELSE!!
 ##
 
 #Currently only works on Firefox, as headless chrome is janky. 
@@ -12,7 +12,7 @@ from selenium.webdriver.firefox.options import Options
 import datetime
 
 options = Options()
-options.headless = False
+options.headless = True
 driver = webdriver.Firefox(options=options)
 
 def AtMarked():

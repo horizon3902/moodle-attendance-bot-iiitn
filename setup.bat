@@ -1,3 +1,3 @@
 pip install selenium
 pip install schedule
-notepad moodle.py
+notepad files\moodle.py
