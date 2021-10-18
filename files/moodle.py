@@ -13,7 +13,7 @@ import datetime
 
 options = Options()
 options.headless = True
-driver = webdriver.Firefox(options=options)
+driver = webdriver.Firefox(options=options,executable_path=r'files\\geckodriver.exe')
 
 def AtMarked():
     print("-----------------------------------------------Attendance Marked!-------------------------------------------------")
@@ -23,11 +23,9 @@ class AtBot:
         driver.get("https://moodle.iiitn.ac.in/login/index.php")
         elem = driver.find_element_by_name("username")
         elem.clear()
-        userN = "Enter Username Here" 
-        elem.send_keys(userN)
-        elem = driver.find_element_by_name("password")
-        passW = "Enter Password Here" 
-        elem.send_keys(passW)
+        elem.send_keys("Enter Username Here")
+        elem = driver.find_element_by_name("password")  
+        elem.send_keys("Enter Password Here")
         elem.send_keys(Keys.RETURN)
         sleep(2)
 
