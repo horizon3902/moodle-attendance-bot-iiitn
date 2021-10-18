@@ -1,5 +1,7 @@
 # Attendance Bot for 3rd Semester, IIIT Nagpur
 
+### IMPORTANT! Download the release for your section, i.e, for example, IIITN20_sem_3_v1.0.2A.zip for section A and IIITN20_sem_3_v1.0.2B.zip for section B, from the releases section
+
 ## Requirements:
 1) Python 3.x+
 2) Firefox Browser
